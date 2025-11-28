@@ -23,11 +23,11 @@
                     </a>
                 </div>
                 <nav class="hidden items-center space-x-4 md:flex">
-                    <a href="#home" class="px-4 text-gray-600 dark:text-white nav-link hover:text-blue-200">Home</a>
-                    <a href="#about" class="px-4 text-gray-600 dark:text-white nav-link hover:text-blue-200">About</a>
+                    <a href="#home" class="px-4 text-gray-600 dark:text-white nav-link hover:text-blue-500">Home</a>
+                    <a href="#about" class="px-4 text-gray-600 dark:text-white nav-link hover:text-blue-500">About</a>
                     <a href="#services"
-                        class="px-4 text-gray-600 dark:text-white nav-link hover:text-blue-200">Services</a>
-                    <a href="#contact" class="px-4 text-gray-600 dark:text-white nav-link hover:text-blue-200">Contact
+                        class="px-4 text-gray-600 dark:text-white nav-link hover:text-blue-500">Services</a>
+                    <a href="#contact" class="px-4 text-gray-600 dark:text-white nav-link hover:text-blue-500">Contact
                         Us</a>
                     <button id="dark-mode-toggle"
                         class="p-2 text-gray-600 rounded-full dark:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">
