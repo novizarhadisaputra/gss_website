@@ -291,7 +291,7 @@
                         </div>
                         <div>
                             <h4 class="text-xl font-semibold">Our Office</h4>
-                            <p class="text-gray-600">123 Tech Avenue, Suite 100<br>Innovation City, IN 46202</p>
+                            <p class="text-gray-600">Jln H Dahlan Mampang Prapatan, South Jakarta, Indonesia</p>
                         </div>
                     </div>
                     <div class="flex items-start mb-6">
@@ -305,7 +305,7 @@
                         </div>
                         <div>
                             <h4 class="text-xl font-semibold">Phone</h4>
-                            <p class="text-gray-600">+1 (555) 123-4567</p>
+                            <p class="text-gray-600">+62 813-8500-0701</p>
                         </div>
                     </div>
                     <div class="flex items-start">
@@ -319,7 +319,7 @@
                         </div>
                         <div>
                             <h4 class="text-xl font-semibold">Email</h4>
-                            <p class="text-gray-600">support@gsssolution.com</p>
+                            <p class="text-gray-600">cs@gss-solution.com</p>
                         </div>
                     </div>
                 </div>
