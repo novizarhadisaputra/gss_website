@@ -18,7 +18,7 @@
                         <img src="{{ asset('assets/logo.png') }}" alt="GSS Logo" class="h-10">
                     </a>
                 </div>
-                <nav class="hidden md:flex space-x-4">
+                <nav class="hidden space-x-4 md:flex">
                     <a href="#" class="px-4 text-white nav-link hover:text-gray-200">Home</a>
                     <a href="#" class="px-4 text-white nav-link hover:text-gray-200">About</a>
                     <a href="#" class="px-4 text-white nav-link hover:text-gray-200">Services</a>
@@ -26,23 +26,30 @@
                 </nav>
                 <div class="md:hidden">
                     <button id="mobile-menu-button" class="text-white focus:outline-none">
-                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
                     </button>
                 </div>
             </div>
-            <nav id="mobile-menu" class="hidden md:hidden bg-gray-800 bg-opacity-75">
-                <a href="#" class="block py-2 px-4 text-sm text-white hover:bg-gray-700">Home</a>
-                <a href="#" class="block py-2 px-4 text-sm text-white hover:bg-gray-700">About</a>
-                <a href="#" class="block py-2 px-4 text-sm text-white hover:bg-gray-700">Services</a>
-                <a href="#" class="block py-2 px-4 text-sm text-white hover:bg-gray-700">Contact Us</a>
+            <nav id="mobile-menu" class="hidden bg-gray-800 bg-opacity-75 md:hidden">
+                <a href="#" class="block px-4 py-2 text-sm text-white hover:bg-gray-700">Home</a>
+                <a href="#" class="block px-4 py-2 text-sm text-white hover:bg-gray-700">About</a>
+                <a href="#" class="block px-4 py-2 text-sm text-white hover:bg-gray-700">Services</a>
+                <a href="#" class="block px-4 py-2 text-sm text-white hover:bg-gray-700">Contact Us</a>
             </nav>
         </header>
 
         <main>
-            <section class="h-screen text-white bg-center bg-cover hero" style="background-image: linear-gradient(to right, rgba(37, 99, 235, 0.8), rgba(23, 37, 84, 0.8)), url('{{ asset('assets/hero-background.png') }}');">
-                <div class="container flex flex-col justify-center items-center mx-auto h-full text-center px-4">
-                    <h1 class="mb-4 text-4xl md:text-5xl font-extrabold animate-fade-in-down">Empowering Your Business with Innovative Solutions</h1>
-                    <p class="mb-8 text-lg md:text-xl animate-fade-in-up">We provide the best services for your company's growth.</p>
+            <section class="h-screen text-white bg-center bg-cover hero"
+                style="background-image: linear-gradient(to right, rgba(37, 99, 235, 0.8), rgba(23, 37, 84, 0.8))">
+                <div class="container flex flex-col justify-center items-center px-4 mx-auto h-full text-center">
+                    <h1 class="mb-4 text-4xl font-extrabold md:text-5xl animate-fade-in-down">Empowering Your Business
+                        with Innovative Solutions</h1>
+                    <p class="mb-8 text-lg md:text-xl animate-fade-in-up">We provide the best services for your
+                        company's growth.</p>
                     <div class="animate-fade-in">
                         <a href="#"
                             class="px-6 py-3 mr-4 font-bold text-white bg-blue-600 rounded-lg hover:bg-blue-700">Get
@@ -54,10 +61,10 @@
                 </div>
             </section>
 
-            <section class="py-16 md:py-20 bg-gray-50 about-us">
-                <div class="container grid grid-cols-1 gap-12 items-center mx-auto md:grid-cols-2 px-4">
+            <section class="py-16 bg-gray-50 md:py-20 about-us">
+                <div class="container grid grid-cols-1 gap-12 items-center px-4 mx-auto md:grid-cols-2">
                     <div class="about-content animate-on-scroll">
-                        <h2 class="mb-4 text-3xl md:text-4xl font-bold">About GSS</h2>
+                        <h2 class="mb-4 text-3xl font-bold md:text-4xl">About GSS</h2>
                         <p class="mb-6 text-gray-600">
                             Global Software Solutions (GSS) is a leading provider of innovative technology solutions.
                             Our mission is to empower businesses with the tools they need to succeed in a rapidly
@@ -90,8 +97,8 @@
                 </div>
             </section>
             <section class="py-16 md:py-20 vision-mission">
-                <div class="container mx-auto text-center px-4">
-                    <h2 class="mb-4 text-3xl md:text-4xl font-bold animate-on-scroll">Our Vision</h2>
+                <div class="container px-4 mx-auto text-center">
+                    <h2 class="mb-4 text-3xl font-bold md:text-4xl animate-on-scroll">Our Vision</h2>
                     <p class="mx-auto mb-12 max-w-3xl text-gray-600 animate-on-scroll">
                         To be the leading partner in digital transformation, empowering businesses to achieve their full
                         potential through innovative technology, strategic insights, and unwavering commitment to
@@ -99,8 +106,8 @@
                         sustainable growth and a smarter world.
                     </p>
 
-                    <h3 class="mb-8 text-2xl md:text-3xl font-bold animate-on-scroll">Mission & Goals</h3>
-                     <div class="grid grid-cols-1 gap-8 md:grid-cols-3">
+                    <h3 class="mb-8 text-2xl font-bold md:text-3xl animate-on-scroll">Mission & Goals</h3>
+                    <div class="grid grid-cols-1 gap-8 md:grid-cols-3">
                         <!-- Card 1: Client Success -->
                         <div class="p-8 bg-white rounded-lg shadow-md card animate-on-scroll">
                             <div
@@ -152,9 +159,9 @@
                     </div>
                 </div>
             </section>
-            <section class="py-16 md:py-20 bg-gray-50 services">
-                <div class="container mx-auto text-center px-4">
-                    <h2 class="mb-4 text-3xl md:text-4xl font-bold animate-on-scroll">What We Offer</h2>
+            <section class="py-16 bg-gray-50 md:py-20 services">
+                <div class="container px-4 mx-auto text-center">
+                    <h2 class="mb-4 text-3xl font-bold md:text-4xl animate-on-scroll">What We Offer</h2>
                     <p class="mx-auto mb-12 max-w-3xl text-gray-600 animate-on-scroll">
                         We provide a comprehensive suite of IT services designed to elevate your business operations and
                         drive growth.
@@ -263,10 +270,10 @@
                 </div>
             </section>
         </main>
-        <section class="py-16 md:py-20 bg-white get-in-touch">
-            <div class="container grid grid-cols-1 gap-12 items-start mx-auto md:grid-cols-2 px-4">
+        <section class="py-16 bg-white md:py-20 get-in-touch">
+            <div class="container grid grid-cols-1 gap-12 items-start px-4 mx-auto md:grid-cols-2">
                 <div class="contact-info animate-on-scroll">
-                    <h2 class="mb-4 text-3xl md:text-4xl font-bold">Get in Touch</h2>
+                    <h2 class="mb-4 text-3xl font-bold md:text-4xl">Get in Touch</h2>
                     <p class="mb-8 text-gray-600">
                         Fill out the form below or use our contact details to reach us directly. We're here to help
                         build your next solution.
@@ -356,7 +363,7 @@
         </section>
 
         <footer class="py-12 text-white bg-gray-800">
-            <div class="container grid grid-cols-1 gap-8 mx-auto md:grid-cols-4 px-4">
+            <div class="container grid grid-cols-1 gap-8 px-4 mx-auto md:grid-cols-4">
                 <div class="footer-about">
                     <h3 class="mb-4 text-2xl font-bold">GSS Solution</h3>
                     <p class="text-gray-400">
