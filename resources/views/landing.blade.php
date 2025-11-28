@@ -8,43 +8,42 @@
     @vite('resources/css/app.css')
 </head>
 
-<body class="bg-white text-gray-800">
+<body class="text-gray-800 bg-white">
 
     <div id="app">
         <header id="main-header" class="sticky top-0 z-50 text-white transition-colors duration-300">
-            <div class="container mx-auto flex justify-between items-center p-4">
-                <div id="logo" class="text-2xl font-bold text-white">GSS</div>
+            <div class="container flex justify-between items-center p-4 mx-auto">
+                <div id="logo" cØlass="text-2xl font-bold text-white">GSS</div>
                 <nav>
-                    <a href="#" class="nav-link text-white hover:text-gray-200 px-4">Home</a>
-                    <a href="#" class="nav-link text-white hover:text-gray-200 px-4">About</a>
-                    <a href="#" class="nav-link text-white hover:text-gray-200 px-4">Services</a>
-                    <a href="#" class="nav-link text-white hover:text-gray-200 px-4">Contact Us</a>
+                    <a href="#" class="px-4 text-white nav-link hover:text-gray-200">Home</a>
+                    <a href="#" class="px-4 text-white nav-link hover:text-gray-200">About</a>
+                    <a href="#" class="px-4 text-white nav-link hover:text-gray-200">Services</a>
+                    <a href="#" class="px-4 text-white nav-link hover:text-gray-200">Contact Us</a>
                 </nav>
             </div>
         </header>
 
         <main>
-            <section class="hero bg-cover bg-center h-screen text-white"
-                style="background-image: url('/assets/hero-background.png');">
-                <div class="container mx-auto flex flex-col items-center justify-center h-full text-center">
-                    <h1 class="text-5xl font-extrabold mb-4">Empowering Your Business with Innovative Solutions</h1>
-                    <p class="text-xl mb-8">We provide the best services for your company's growth.</p>
+            <section class="h-screen text-white bg-center bg-cover hero" style="">
+                <div class="container flex flex-col justify-center items-center mx-auto h-full text-center">
+                    <h1 class="mb-4 text-5xl font-extrabold">Empowering Your Business with Innovative Solutions</h1>
+                    <p class="mb-8 text-xl">We provide the best services for your company's growth.</p>
                     <div>
                         <a href="#"
-                            class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg mr-4">Get
+                            class="px-6 py-3 mr-4 font-bold text-white bg-blue-600 rounded-lg hover:bg-blue-700">Get
                             Started</a>
                         <a href="#"
-                            class="bg-gray-700 hover:bg-gray-800 text-white font-bold py-3 px-6 rounded-lg">Learn
+                            class="px-6 py-3 font-bold text-white bg-gray-700 rounded-lg hover:bg-gray-800">Learn
                             More</a>
                     </div>
                 </div>
             </section>
 
-            <section class="about-us py-20 bg-gray-50">
-                <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            <section class="py-20 bg-gray-50 about-us">
+                <div class="container grid grid-cols-1 gap-12 items-center mx-auto md:grid-cols-2">
                     <div class="about-content">
-                        <h2 class="text-4xl font-bold mb-4">About GSS</h2>
-                        <p class="text-gray-600 mb-6">
+                        <h2 class="mb-4 text-4xl font-bold">About GSS</h2>
+                        <p class="mb-6 text-gray-600">
                             Global Software Solutions (GSS) is a leading provider of innovative technology solutions.
                             Our mission is to empower businesses with the tools they need to succeed in a rapidly
                             evolving digital landscape.
@@ -55,7 +54,7 @@
                             is dedicated to excellence and customer satisfaction.
                         </p>
                     </div>
-                    <div class="about-stats grid grid-cols-2 gap-8 text-center">
+                    <div class="grid grid-cols-2 gap-8 text-center about-stats">
                         <div>
                             <span class="block text-4xl font-bold text-blue-600">10+</span>
                             <span class="text-gray-500">Years of Experience</span>
@@ -75,22 +74,22 @@
                     </div>
                 </div>
             </section>
-            <section class="vision-mission py-20">
+            <section class="py-20 vision-mission">
                 <div class="container mx-auto text-center">
-                    <h2 class="text-4xl font-bold mb-4">Our Vision</h2>
-                    <p class="text-gray-600 max-w-3xl mx-auto mb-12">
+                    <h2 class="mb-4 text-4xl font-bold">Our Vision</h2>
+                    <p class="mx-auto mb-12 max-w-3xl text-gray-600">
                         To be the leading partner in digital transformation, empowering businesses to achieve their full
                         potential through innovative technology, strategic insights, and unwavering commitment to
                         excellence. We envision a future where technology seamlessly integrates with business to create
                         sustainable growth and a smarter world.
                     </p>
 
-                    <h3 class="text-3xl font-bold mb-8">Mission & Goals</h3>
-                    Ø <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <h3 class="mb-8 text-3xl font-bold">Mission & Goals</h3>
+                    Ø <div class="grid grid-cols-1 gap-8 md:grid-cols-3">
                         <!-- Card 1: Client Success -->
-                        <div class="card bg-white p-8 rounded-lg shadow-md">
+                        <div class="p-8 bg-white rounded-lg shadow-md card">
                             <div
-                                class="w-16 h-16 bg-blue-100 rounded-full mx-auto mb-4 flex items-center justify-center">
+                                class="flex justify-center items-center mx-auto mb-4 w-16 h-16 bg-blue-100 rounded-full">
                                 <!-- Placeholder for icon -->
                                 <svg class="w-8 h-8 text-blue-500" fill="none" stroke="currentColor"
                                     viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -99,14 +98,14 @@
                                     </path>
                                 </svg>
                             </div>
-                            <h4 class="text-2xl font-semibold mb-2">Client Success</h4>
+                            <h4 class="mb-2 text-2xl font-semibold">Client Success</h4>
                             <p class="text-gray-600">Our primary goal is to ensure the success of our clients through
                                 tailored IT solutions and unwavering support.</p>
                         </div>
                         <!-- Card 2: Innovation -->
-                        <div class="card bg-white p-8 rounded-lg shadow-md">
+                        <div class="p-8 bg-white rounded-lg shadow-md card">
                             <div
-                                class="w-16 h-16 bg-blue-100 rounded-full mx-auto mb-4 flex items-center justify-center">
+                                class="flex justify-center items-center mx-auto mb-4 w-16 h-16 bg-blue-100 rounded-full">
                                 <!-- Placeholder for icon -->
                                 <svg class="w-8 h-8 text-blue-500" fill="none" stroke="currentColor"
                                     viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -115,14 +114,14 @@
                                     </path>
                                 </svg>
                             </div>
-                            <h4 class="text-2xl font-semibold mb-2">Innovation</h4>
+                            <h4 class="mb-2 text-2xl font-semibold">Innovation</h4>
                             <p class="text-gray-600">We are committed to continuous innovation, leveraging cutting-edge
                                 technology to solve complex business challenges.</p>
                         </div>
                         <!-- Card 3: Integrity -->
-                        <div class="card bg-white p-8 rounded-lg shadow-md">
+                        <div class="p-8 bg-white rounded-lg shadow-md card">
                             <div
-                                class="w-16 h-16 bg-blue-100 rounded-full mx-auto mb-4 flex items-center justify-center">
+                                class="flex justify-center items-center mx-auto mb-4 w-16 h-16 bg-blue-100 rounded-full">
                                 <!-- Placeholder for icon -->
                                 <svg class="w-8 h-8 text-blue-500" fill="none" stroke="currentColor"
                                     viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -131,25 +130,25 @@
                                     </path>
                                 </svg>
                             </div>
-                            <h4 class="text-2xl font-semibold mb-2">Integrity</h4>
+                            <h4 class="mb-2 text-2xl font-semibold">Integrity</h4>
                             <p class="text-gray-600">We operate with the highest level of integrity, building trust
                                 through transparent and ethical practices.</p>
                         </div>
                     </div>
                 </div>
             </section>
-            <section class="services py-20 bg-gray-50">
+            <section class="py-20 bg-gray-50 services">
                 <div class="container mx-auto text-center">
-                    <h2 class="text-4xl font-bold mb-4">What We Offer</h2>
-                    <p class="text-gray-600 max-w-3xl mx-auto mb-12">
+                    <h2 class="mb-4 text-4xl font-bold">What We Offer</h2>
+                    <p class="mx-auto mb-12 max-w-3xl text-gray-600">
                         We provide a comprehensive suite of IT services designed to elevate your business operations and
                         drive growth.
                     </p>
-                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
                         <!-- Service Card 1: Cloud Solutions -->
-                        <div class="card bg-white p-8 rounded-lg shadow-md">
+                        <div class="p-8 bg-white rounded-lg shadow-md card">
                             <div
-                                class="w-16 h-16 bg-blue-100 rounded-full mx-auto mb-4 flex items-center justify-center">
+                                class="flex justify-center items-center mx-auto mb-4 w-16 h-16 bg-blue-100 rounded-full">
                                 <svg class="w-8 h-8 text-blue-500" fill="none" stroke="currentColor"
                                     viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -157,14 +156,14 @@
                                     </path>
                                 </svg>
                             </div>
-                            <h4 class="text-2xl font-semibold mb-2">Cloud Solutions</h4>
+                            <h4 class="mb-2 text-2xl font-semibold">Cloud Solutions</h4>
                             <p class="text-gray-600">Scalable and secure cloud infrastructure to power your
                                 applications and data.</p>
                         </div>
                         <!-- Service Card 2: Cybersecurity -->
-                        <div class="card bg-white p-8 rounded-lg shadow-md">
+                        <div class="p-8 bg-white rounded-lg shadow-md card">
                             <div
-                                class="w-16 h-16 bg-blue-100 rounded-full mx-auto mb-4 flex items-center justify-center">
+                                class="flex justify-center items-center mx-auto mb-4 w-16 h-16 bg-blue-100 rounded-full">
                                 <svg class="w-8 h-8 text-blue-500" fill="none" stroke="currentColor"
                                     viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -172,14 +171,14 @@
                                     </path>
                                 </svg>
                             </div>
-                            <h4 class="text-2xl font-semibold mb-2">Cybersecurity</h4>
+                            <h4 class="mb-2 text-2xl font-semibold">Cybersecurity</h4>
                             <p class="text-gray-600">Protecting your digital assets with advanced threat detection and
                                 prevention services.</p>
                         </div>
                         <!-- Service Card 3: Data Analytics -->
-                        <div class="card bg-white p-8 rounded-lg shadow-md">
+                        <div class="p-8 bg-white rounded-lg shadow-md card">
                             <div
-                                class="w-16 h-16 bg-blue-100 rounded-full mx-auto mb-4 flex items-center justify-center">
+                                class="flex justify-center items-center mx-auto mb-4 w-16 h-16 bg-blue-100 rounded-full">
                                 <svg class="w-8 h-8 text-blue-500" fill="none" stroke="currentColor"
                                     viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -187,27 +186,27 @@
                                     </path>
                                 </svg>
                             </div>
-                            <h4 class="text-2xl font-semibold mb-2">Data Analytics</h4>
+                            <h4 class="mb-2 text-2xl font-semibold">Data Analytics</h4>
                             <p class="text-gray-600">Transforming raw data into actionable insights for strategic
                                 decision-making.</p>
                         </div>
                         <!-- Service Card 4: Managed IT Services -->
-                        <div class="card bg-white p-8 rounded-lg shadow-md">
+                        <div class="p-8 bg-white rounded-lg shadow-md card">
                             <div
-                                class="w-16 h-16 bg-blue-100 rounded-full mx-auto mb-4 flex items-center justify-center">
+                                class="flex justify-center items-center mx-auto mb-4 w-16 h-16 bg-blue-100 rounded-full">
                                 <svg class="w-8 h-8 text-blue-500" fill="none" stroke="currentColor"
                                     viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M12 15l-4 4m0 0l-4-4m4 4V3m0 12h8m-8 0H4m8 4l4-4m0 0l4 4m-4-4V3"></path>
                                 </svg>
                             </div>
-                            <h4 class="text-2xl font-semibold mb-2">Managed IT Services</h4>
+                            <h4 class="mb-2 text-2xl font-semibold">Managed IT Services</h4>
                             <p class="text-gray-600">Proactive IT management and support to keep your systems running
                                 smoothly.</p>
                         </div>
                         <!-- Service Card 5: Software Development -->
-                        <div class="card bg-white p-8 rounded-lg shadow-md">
+                        <div class="p-8 bg-white rounded-lg shadow-md card">
                             <div
-                                class="w-16 h-16 bg-blue-100 rounded-full mx-auto mb-4 flex items-center justify-center">
+                                class="flex justify-center items-center mx-auto mb-4 w-16 h-16 bg-blue-100 rounded-full">
                                 <svg class="w-8 h-8 text-blue-500" fill="none" stroke="currentColor"
                                     viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -215,14 +214,14 @@
                                     </path>
                                 </svg>
                             </div>
-                            <h4 class="text-2xl font-semibold mb-2">Software Development</h4>
+                            <h4 class="mb-2 text-2xl font-semibold">Software Development</h4>
                             <p class="text-gray-600">Custom software solutions built to address your unique business
                                 needs and challenges.</p>
                         </div>
                         <!-- Service Card 6: IT Consulting -->
-                        <div class="card bg-white p-8 rounded-lg shadow-md">
+                        <div class="p-8 bg-white rounded-lg shadow-md card">
                             <div
-                                class="w-16 h-16 bg-blue-100 rounded-full mx-auto mb-4 flex items-center justify-center">
+                                class="flex justify-center items-center mx-auto mb-4 w-16 h-16 bg-blue-100 rounded-full">
                                 <svg class="w-8 h-8 text-blue-500" fill="none" stroke="currentColor"
                                     viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -230,16 +229,16 @@
                                     </path>
                                 </svg>
                             </div>
-                            <h4 class="text-2xl font-semibold mb-2">IT Consulting</h4>
+                            <h4 class="mb-2 text-2xl font-semibold">IT Consulting</h4>
                             <p class="text-gray-600">Expert guidance to help you navigate the complexities of the IT
                                 landscape.</p>
                         </div>
                     </div>
                     <div class="mt-12">
                         <a href="#"
-                            class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg text-lg">
+                            class="px-6 py-3 text-lg font-bold text-white bg-blue-600 rounded-lg hover:bg-blue-700">
                             Explore Our Solutions
-                            <svg class="inline-block w-6 h-6 ml-2" fill="none" stroke="currentColor"
+                            <svg class="inline-block ml-2 w-6 h-6" fill="none" stroke="currentColor"
                                 viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                     d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
@@ -249,16 +248,16 @@
                 </div>
             </section>
         </main>
-        <section class="get-in-touch py-20 bg-white">
-            <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
+        <section class="py-20 bg-white get-in-touch">
+            <div class="container grid grid-cols-1 gap-12 items-start mx-auto md:grid-cols-2">
                 <div class="contact-info">
-                    <h2 class="text-4xl font-bold mb-4">Get in Touch</h2>
-                    <p class="text-gray-600 mb-8">
+                    <h2 class="mb-4 text-4xl font-bold">Get in Touch</h2>
+                    <p class="mb-8 text-gray-600">
                         Fill out the form below or use our contact details to reach us directly. We're here to help
                         build your next solution.
                     </p>
                     <div class="flex items-start mb-6">
-                        <div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mr-4">
+                        <div class="flex justify-center items-center mr-4 w-12 h-12 bg-blue-100 rounded-full">
                             <svg class="w-6 h-6 text-blue-500" fill="none" stroke="currentColor"
                                 viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -274,7 +273,7 @@
                         </div>
                     </div>
                     <div class="flex items-start mb-6">
-                        <div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mr-4">
+                        <div class="flex justify-center items-center mr-4 w-12 h-12 bg-blue-100 rounded-full">
                             <svg class="w-6 h-6 text-blue-500" fill="none" stroke="currentColor"
                                 viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -288,7 +287,7 @@
                         </div>
                     </div>
                     <div class="flex items-start">
-                        <div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mr-4">
+                        <div class="flex justify-center items-center mr-4 w-12 h-12 bg-blue-100 rounded-full">
                             <svg class="w-6 h-6 text-blue-500" fill="none" stroke="currentColor"
                                 viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -302,38 +301,38 @@
                         </div>
                     </div>
                 </div>
-                <div class="contact-form bg-gray-50 p-8 rounded-lg shadow-md">
+                <div class="p-8 bg-gray-50 rounded-lg shadow-md contact-form">
                     <form>
-                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                        <div class="grid grid-cols-1 gap-6 mb-6 md:grid-cols-2">
                             <div>
-                                <label for="full_name" class="block text-gray-700 font-semibold mb-2">Full
+                                <label for="full_name" class="block mb-2 font-semibold text-gray-700">Full
                                     Name</label>
                                 <input type="text" id="full_name" name="full_name"
-                                    class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                                    class="px-4 py-2 w-full rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"
                                     placeholder="John Doe">
                             </div>
                             <div>
-                                <label for="company_name" class="block text-gray-700 font-semibold mb-2">Company
+                                <label for="company_name" class="block mb-2 font-semibold text-gray-700">Company
                                     Name</label>
                                 <input type="text" id="company_name" name="company_name"
-                                    class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                                    class="px-4 py-2 w-full rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"
                                     placeholder="Your Company Inc.">
                             </div>
                         </div>
                         <div class="mb-6">
-                            <label for="email" class="block text-gray-700 font-semibold mb-2">Email Address</label>
+                            <label for="email" class="block mb-2 font-semibold text-gray-700">Email Address</label>
                             <input type="email" id="email" name="email"
-                                class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                                class="px-4 py-2 w-full rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"
                                 placeholder="you@example.com">
                         </div>
                         <div class="mb-6">
-                            <label for="message" class="block text-gray-700 font-semibold mb-2">Your Message</label>
+                            <label for="message" class="block mb-2 font-semibold text-gray-700">Your Message</label>
                             <textarea id="message" name="message" rows="5"
-                                class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                                class="px-4 py-2 w-full rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"
                                 placeholder="Describe your project or inquiry here..."></textarea>
                         </div>
                         <button type="submit"
-                            class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg">
+                            class="px-6 py-3 w-full font-bold text-white bg-blue-600 rounded-lg hover:bg-blue-700">
                             Send Message
                         </button>
                     </form>
@@ -341,14 +340,14 @@
             </div>
         </section>
 
-        <footer class="bg-gray-800 text-white py-12">
-            <div class="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
+        <footer class="py-12 text-white bg-gray-800">
+            <div class="container grid grid-cols-1 gap-8 mx-auto md:grid-cols-4">
                 <div class="footer-about">
-                    <h3 class="text-2xl font-bold mb-4">GSS Solution</h3>
+                    <h3 class="mb-4 text-2xl font-bold">GSS Solution</h3>
                     <p class="text-gray-400">
                         Your trusted partner in IT consulting and technology solutions, driving innovation and growth.
                     </p>
-                    <div class="flex space-x-4 mt-4">
+                    <div class="flex mt-4 space-x-4">
                         <a href="#" class="text-gray-400 hover:text-white"><svg class="w-6 h-6"
                                 fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                 <path
@@ -364,7 +363,7 @@
                     </div>
                 </div>
                 <div>
-                    <h4 class="text-lg font-semibold mb-4">NAVIGATION</h4>
+                    <h4 class="mb-4 text-lg font-semibold">NAVIGATION</h4>
                     <ul class="space-y-2">
                         <li><a href="#" class="text-gray-400 hover:text-white">About</a></li>
                         <li><a href="#" class="text-gray-400 hover:text-white">Services</a></li>
@@ -373,14 +372,14 @@
                     </ul>
                 </div>
                 <div>
-                    <h4 class="text-lg font-semibold mb-4">LEGAL</h4>
+                    <h4 class="mb-4 text-lg font-semibold">LEGAL</h4>
                     <ul class="space-y-2">
                         <li><a href="#" class="text-gray-400 hover:text-white">Privacy Policy</a></li>
                         <li><a href="#" class="text-gray-400 hover:text-white">Terms of Service</a></li>
                     </ul>
                 </div>
             </div>
-            <div class="container mx-auto text-center mt-8 border-t border-gray-700 pt-6">
+            <div class="container pt-6 mx-auto mt-8 text-center border-t border-gray-700">
                 <p class="text-gray-500">&copy; 2024 GSS Solution. All Rights Reserved.</p>
             </div>
         </footer>
