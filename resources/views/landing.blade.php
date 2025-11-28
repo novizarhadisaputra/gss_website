@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GSS Solution Landing Page</title>
+    <meta name="description" content="Global Software Solutions (GSS) is a leading provider of innovative technology solutions.">
+    <meta name="keywords" content="GSS, Global Software Solutions, IT Solutions, Technology, Software Development">
+    <meta name="author" content="GSS Solution">
     @vite('resources/css/app.css')
 </head>
 
@@ -19,10 +22,10 @@
                     </a>
                 </div>
                 <nav class="hidden md:flex items-center space-x-4">
-                    <a href="#" class="px-4 text-white nav-link hover:text-gray-200">Home</a>
-                    <a href="#" class="px-4 text-white nav-link hover:text-gray-200">About</a>
-                    <a href="#" class="px-4 text-white nav-link hover:text-gray-200">Services</a>
-                    <a href="#" class="px-4 text-white nav-link hover:text-gray-200">Contact Us</a>
+                    <a href="#home" class="px-4 nav-link hover:text-gray-200">Home</a>
+                    <a href="#about" class="px-4 nav-link hover:text-gray-200">About</a>
+                    <a href="#services" class="px-4 nav-link hover:text-gray-200">Services</a>
+                    <a href="#contact" class="px-4 nav-link hover:text-gray-200">Contact Us</a>
                     <button id="dark-mode-toggle" class="p-2 rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">
                         <svg id="sun-icon" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"></path></svg>
                         <svg id="moon-icon" class="w-6 h-6 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"></path></svg>
@@ -39,15 +42,15 @@
                 </div>
             </div>
             <nav id="mobile-menu" class="hidden md:hidden bg-gray-800 bg-opacity-75 dark:bg-gray-900">
-                <a href="#" class="block py-2 px-4 text-sm text-white hover:bg-gray-700">Home</a>
-                <a href="#" class="block py-2 px-4 text-sm text-white hover:bg-gray-700">About</a>
-                <a href="#" class="block py-2 px-4 text-sm text-white hover:bg-gray-700">Services</a>
-                <a href="#" class="block py-2 px-4 text-sm text-white hover:bg-gray-700">Contact Us</a>
+                <a href="#home" class="block py-2 px-4 text-sm text-white hover:bg-gray-700">Home</a>
+                <a href="#about" class="block py-2 px-4 text-sm text-white hover:bg-gray-700">About</a>
+                <a href="#services" class="block py-2 px-4 text-sm text-white hover:bg-gray-700">Services</a>
+                <a href="#contact" class="block py-2 px-4 text-sm text-white hover:bg-gray-700">Contact Us</a>
             </nav>
         </header>
 
         <main>
-            <section class="h-screen text-white bg-center bg-cover hero" style="background-image: linear-gradient(to right, rgba(37, 99, 235, 0.8), rgba(23, 37, 84, 0.8)), url('{{ asset('assets/hero-background.png') }}');">
+            <section id="home" class="h-screen text-white bg-center bg-cover hero" style="background-image: linear-gradient(to right, rgba(37, 99, 235, 0.8), rgba(23, 37, 84, 0.8)), url('{{ asset('assets/hero-background.png') }}');">
                 <div class="container flex flex-col justify-center items-center mx-auto h-full text-center px-4">
                     <h1 class="mb-4 text-4xl md:text-5xl font-extrabold animate-fade-in-down">Empowering Your Business with Innovative Solutions</h1>
                     <p class="mb-8 text-lg md:text-xl animate-fade-in-up">We provide the best services for your company's growth.</p>
@@ -62,7 +65,7 @@
                 </div>
             </section>
 
-            <section class="py-16 md:py-20 bg-gray-50 about-us dark:bg-gray-800">
+            <section id="about" class="py-16 md:py-20 bg-gray-50 about-us dark:bg-gray-800">
                 <div class="container grid grid-cols-1 gap-12 items-center mx-auto md:grid-cols-2 px-4">
                     <div class="about-content animate-on-scroll">
                         <h2 class="mb-4 text-3xl md:text-4xl font-bold dark:text-white">About GSS</h2>
@@ -112,9 +115,9 @@
                         <!-- Card 1: Client Success -->
                         <div class="p-8 bg-white rounded-lg shadow-md card animate-on-scroll dark:bg-gray-800">
                             <div
-                                class="flex justify-center items-center mx-auto mb-4 w-16 h-16 bg-blue-100 rounded-full">
+                                class="flex justify-center items-center mx-auto mb-4 w-16 h-16 bg-blue-100 rounded-full dark:bg-blue-900">
                                 <!-- Placeholder for icon -->
-                                <svg class="w-8 h-8 text-blue-500" fill="none" stroke="currentColor"
+                                <svg class="w-8 h-8 text-blue-500 dark:text-blue-400" fill="none" stroke="currentColor"
                                     viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                         d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 2v.01">
@@ -128,9 +131,9 @@
                         <!-- Card 2: Innovation -->
                         <div class="p-8 bg-white rounded-lg shadow-md card animate-on-scroll dark:bg-gray-800">
                             <div
-                                class="flex justify-center items-center mx-auto mb-4 w-16 h-16 bg-blue-100 rounded-full">
+                                class="flex justify-center items-center mx-auto mb-4 w-16 h-16 bg-blue-100 rounded-full dark:bg-blue-900">
                                 <!-- Placeholder for icon -->
-                                <svg class="w-8 h-8 text-blue-500" fill="none" stroke="currentColor"
+                                <svg class="w-8 h-8 text-blue-500 dark:text-blue-400" fill="none" stroke="currentColor"
                                     viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                         d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.636 6.364l.707-.707M19.071 4.929l-.707.707">
@@ -144,9 +147,9 @@
                         <!-- Card 3: Integrity -->
                         <div class="p-8 bg-white rounded-lg shadow-md card animate-on-scroll dark:bg-gray-800">
                             <div
-                                class="flex justify-center items-center mx-auto mb-4 w-16 h-16 bg-blue-100 rounded-full">
+                                class="flex justify-center items-center mx-auto mb-4 w-16 h-16 bg-blue-100 rounded-full dark:bg-blue-900">
                                 <!-- Placeholder for icon -->
-                                <svg class="w-8 h-8 text-blue-500" fill="none" stroke="currentColor"
+                                <svg class="w-8 h-8 text-blue-500 dark:text-blue-400" fill="none" stroke="currentColor"
                                     viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                         d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z">
@@ -160,7 +163,7 @@
                     </div>
                 </div>
             </section>
-            <section class="py-16 md:py-20 bg-gray-50 services dark:bg-gray-800">
+            <section id="services" class="py-16 md:py-20 bg-gray-50 services dark:bg-gray-800">
                 <div class="container mx-auto text-center px-4">
                     <h2 class="mb-4 text-3xl md:text-4xl font-bold animate-on-scroll dark:text-white">What We Offer</h2>
                     <p class="mx-auto mb-12 max-w-3xl text-gray-600 animate-on-scroll dark:text-gray-400">
@@ -171,8 +174,8 @@
                         <!-- Service Card 1: Cloud Solutions -->
                         <div class="p-8 bg-white rounded-lg shadow-md card animate-on-scroll dark:bg-gray-900">
                             <div
-                                class="flex justify-center items-center mx-auto mb-4 w-16 h-16 bg-blue-100 rounded-full">
-                                <svg class="w-8 h-8 text-blue-500" fill="none" stroke="currentColor"
+                                class="flex justify-center items-center mx-auto mb-4 w-16 h-16 bg-blue-100 rounded-full dark:bg-blue-900">
+                                <svg class="w-8 h-8 text-blue-500 dark:text-blue-400" fill="none" stroke="currentColor"
                                     viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                         d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z">
@@ -186,8 +189,8 @@
                         <!-- Service Card 2: Cybersecurity -->
                         <div class="p-8 bg-white rounded-lg shadow-md card animate-on-scroll dark:bg-gray-900">
                             <div
-                                class="flex justify-center items-center mx-auto mb-4 w-16 h-16 bg-blue-100 rounded-full">
-                                <svg class="w-8 h-8 text-blue-500" fill="none" stroke="currentColor"
+                                class="flex justify-center items-center mx-auto mb-4 w-16 h-16 bg-blue-100 rounded-full dark:bg-blue-900">
+                                <svg class="w-8 h-8 text-blue-500 dark:text-blue-400" fill="none" stroke="currentColor"
                                     viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                         d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z">
@@ -201,8 +204,8 @@
                         <!-- Service Card 3: Data Analytics -->
                         <div class="p-8 bg-white rounded-lg shadow-md card animate-on-scroll dark:bg-gray-900">
                             <div
-                                class="flex justify-center items-center mx-auto mb-4 w-16 h-16 bg-blue-100 rounded-full">
-                                <svg class="w-8 h-8 text-blue-500" fill="none" stroke="currentColor"
+                                class="flex justify-center items-center mx-auto mb-4 w-16 h-16 bg-blue-100 rounded-full dark:bg-blue-900">
+                                <svg class="w-8 h-8 text-blue-500 dark:text-blue-400" fill="none" stroke="currentColor"
                                     viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                         d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V7a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z">
@@ -216,8 +219,8 @@
                         <!-- Service Card 4: Managed IT Services -->
                         <div class="p-8 bg-white rounded-lg shadow-md card animate-on-scroll dark:bg-gray-900">
                             <div
-                                class="flex justify-center items-center mx-auto mb-4 w-16 h-16 bg-blue-100 rounded-full">
-                                <svg class="w-8 h-8 text-blue-500" fill="none" stroke="currentColor"
+                                class="flex justify-center items-center mx-auto mb-4 w-16 h-16 bg-blue-100 rounded-full dark:bg-blue-900">
+                                <svg class="w-8 h-8 text-blue-500 dark:text-blue-400" fill="none" stroke="currentColor"
                                     viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M12 15l-4 4m0 0l-4-4m4 4V3m0 12h8m-8 0H4m8 4l4-4m0 0l4 4m-4-4V3"></path>
                                 </svg>
@@ -229,8 +232,8 @@
                         <!-- Service Card 5: Software Development -->
                         <div class="p-8 bg-white rounded-lg shadow-md card animate-on-scroll dark:bg-gray-900">
                             <div
-                                class="flex justify-center items-center mx-auto mb-4 w-16 h-16 bg-blue-100 rounded-full">
-                                <svg class="w-8 h-8 text-blue-500" fill="none" stroke="currentColor"
+                                class="flex justify-center items-center mx-auto mb-4 w-16 h-16 bg-blue-100 rounded-full dark:bg-blue-900">
+                                <svg class="w-8 h-8 text-blue-500 dark:text-blue-400" fill="none" stroke="currentColor"
                                     viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                         d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z">
@@ -244,8 +247,8 @@
                         <!-- Service Card 6: IT Consulting -->
                         <div class="p-8 bg-white rounded-lg shadow-md card animate-on-scroll dark:bg-gray-900">
                             <div
-                                class="flex justify-center items-center mx-auto mb-4 w-16 h-16 bg-blue-100 rounded-full">
-                                <svg class="w-8 h-8 text-blue-500" fill="none" stroke="currentColor"
+                                class="flex justify-center items-center mx-auto mb-4 w-16 h-16 bg-blue-100 rounded-full dark:bg-blue-900">
+                                <svg class="w-8 h-8 text-blue-500 dark:text-blue-400" fill="none" stroke="currentColor"
                                     viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                         d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z">
@@ -271,7 +274,7 @@
                 </div>
             </section>
         </main>
-        <section class="py-16 md:py-20 bg-white get-in-touch dark:bg-gray-800">
+        <section id="contact" class="py-16 md:py-20 bg-white get-in-touch dark:bg-gray-800">
             <div class="container grid grid-cols-1 gap-12 items-start mx-auto md:grid-cols-2 px-4">
                 <div class="contact-info animate-on-scroll">
                     <h2 class="mb-4 text-3xl md:text-4xl font-bold dark:text-white">Get in Touch</h2>
@@ -325,7 +328,13 @@
                     </div>
                 </div>
                 <div class="p-8 bg-gray-50 rounded-lg shadow-md contact-form animate-on-scroll dark:bg-gray-900">
-                    <form>
+                    @if (session('success'))
+                        <div class="p-4 mb-4 text-sm text-green-700 bg-green-100 rounded-lg dark:bg-green-200 dark:text-green-800" role="alert">
+                            {{ session('success') }}
+                        </div>
+                    @endif
+                    <form method="POST" action="{{ route('contact.submit') }}">
+                        @csrf
                         <div class="grid grid-cols-1 gap-6 mb-6 md:grid-cols-2">
                             <div>
                                 <label for="full_name" class="block mb-2 font-semibold text-gray-700 dark:text-gray-300">Full

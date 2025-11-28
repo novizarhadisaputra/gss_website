@@ -1,27 +1,12 @@
 
 window.addEventListener('scroll', function() {
     const header = document.getElementById('main-header');
-    const logo = document.getElementById('logo');
-    const navLinks = document.querySelectorAll('.nav-link');
-
     if (window.scrollY > 50) {
-        header.classList.add('bg-white', 'shadow-lg', 'dark:bg-gray-800');
+        header.classList.add('bg-white', 'text-gray-600', 'shadow-lg', 'dark:bg-gray-800', 'dark:text-gray-300');
         header.classList.remove('text-white');
-        logo.classList.remove('text-white');
-        logo.classList.add('text-blue-600', 'dark:text-white');
-        navLinks.forEach(link => {
-            link.classList.remove('text-white');
-            link.classList.add('text-gray-600', 'dark:text-gray-300');
-        });
     } else {
-        header.classList.remove('bg-white', 'shadow-lg', 'dark:bg-gray-800');
+        header.classList.remove('bg-white', 'text-gray-600', 'shadow-lg', 'dark:bg-gray-800', 'dark:text-gray-300');
         header.classList.add('text-white');
-        logo.classList.add('text-white');
-        logo.classList.remove('text-blue-600', 'dark:text-white');
-        navLinks.forEach(link => {
-            link.classList.add('text-white');
-            link.classList.remove('text-gray-600', 'dark:text-gray-300');
-        });
     }
 });
 
