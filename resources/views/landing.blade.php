@@ -29,6 +29,8 @@
                     <a href="#about" class="px-4 text-gray-600 dark:text-white nav-link hover:text-blue-500">About</a>
                     <a href="#services"
                         class="px-4 text-gray-600 dark:text-white nav-link hover:text-blue-500">Services</a>
+                    <a href="#portfolio"
+                        class="px-4 text-gray-600 dark:text-white nav-link hover:text-blue-500">Portfolio</a>
                     <a href="#contact" class="px-4 text-gray-600 dark:text-white nav-link hover:text-blue-500">Contact
                         Us</a>
                     <button id="dark-mode-toggle"
@@ -52,6 +54,7 @@
                 <a href="#home" class="block px-4 py-2 text-sm text-white hover:bg-gray-700">Home</a>
                 <a href="#about" class="block px-4 py-2 text-sm text-white hover:bg-gray-700">About</a>
                 <a href="#services" class="block px-4 py-2 text-sm text-white hover:bg-gray-700">Services</a>
+                <a href="#portfolio" class="block px-4 py-2 text-sm text-white hover:bg-gray-700">Portfolio</a>
                 <a href="#contact" class="block px-4 py-2 text-sm text-white hover:bg-gray-700">Contact Us</a>
             </nav>
         </header>
@@ -90,7 +93,8 @@
                             is dedicated to excellence and customer satisfaction.
                         </p>
                     </div>
-                    <div class="grid grid-cols-2 gap-8 text-center about-stats animate-on-scroll" data-animation="animate__fadeInRight">
+                    <div class="grid grid-cols-2 gap-8 text-center about-stats animate-on-scroll"
+                        data-animation="animate__fadeInRight">
                         <div>
                             <span class="block text-4xl font-bold text-blue-600 dark:text-blue-400">10+</span>
                             <span class="text-gray-500 dark:text-gray-400">Years of Experience</span>
@@ -112,19 +116,23 @@
             </section>
             <section class="py-16 md:py-20 vision-mission dark:bg-gray-900">
                 <div class="container px-4 mx-auto text-center">
-                    <h2 class="mb-4 text-3xl font-bold md:text-4xl animate-on-scroll dark:text-white" data-animation="animate__fadeInDown">Our Vision</h2>
-                    <p class="mx-auto mb-12 max-w-3xl text-gray-600 animate-on-scroll dark:text-gray-400" data-animation="animate__fadeInUp">
+                    <h2 class="mb-4 text-3xl font-bold md:text-4xl animate-on-scroll dark:text-white"
+                        data-animation="animate__fadeInDown">Our Vision</h2>
+                    <p class="mx-auto mb-12 max-w-3xl text-gray-600 animate-on-scroll dark:text-gray-400"
+                        data-animation="animate__fadeInUp">
                         To be the leading partner in digital transformation, empowering businesses to achieve their full
                         potential through innovative technology, strategic insights, and unwavering commitment to
                         excellence. We envision a future where technology seamlessly integrates with business to create
                         sustainable growth and a smarter world.
                     </p>
 
-                    <h3 class="mb-8 text-2xl font-bold md:text-3xl animate-on-scroll dark:text-white" data-animation="animate__fadeInUp">Mission & Goals
+                    <h3 class="mb-8 text-2xl font-bold md:text-3xl animate-on-scroll dark:text-white"
+                        data-animation="animate__fadeInUp">Mission & Goals
                     </h3>
                     <div class="grid grid-cols-1 gap-8 md:grid-cols-3">
                         <!-- Card 1: Client Success -->
-                        <div class="p-8 bg-white rounded-lg shadow-md card animate-on-scroll dark:bg-gray-800" data-animation="animate__zoomIn">
+                        <div class="p-8 bg-white rounded-lg shadow-md card animate-on-scroll dark:bg-gray-800"
+                            data-animation="animate__zoomIn">
                             <div
                                 class="flex justify-center items-center mx-auto mb-4 w-16 h-16 bg-blue-100 rounded-full dark:bg-blue-900">
                                 <x-lucide-users class="w-8 h-8 text-blue-500 dark:text-blue-400" />
@@ -135,7 +143,8 @@
                                 tailored IT solutions and unwavering support.</p>
                         </div>
                         <!-- Card 2: Innovation -->
-                        <div class="p-8 bg-white rounded-lg shadow-md card animate-on-scroll dark:bg-gray-800" data-animation="animate__zoomIn" data-animation-delay="200">
+                        <div class="p-8 bg-white rounded-lg shadow-md card animate-on-scroll dark:bg-gray-800"
+                            data-animation="animate__zoomIn" data-animation-delay="200">
                             <div
                                 class="flex justify-center items-center mx-auto mb-4 w-16 h-16 bg-blue-100 rounded-full dark:bg-blue-900">
                                 <x-lucide-lightbulb class="w-8 h-8 text-blue-500 dark:text-blue-400" />
@@ -146,7 +155,8 @@
                                 technology to solve complex business challenges.</p>
                         </div>
                         <!-- Card 3: Integrity -->
-                        <div class="p-8 bg-white rounded-lg shadow-md card animate-on-scroll dark:bg-gray-800" data-animation="animate__zoomIn" data-animation-delay="400">
+                        <div class="p-8 bg-white rounded-lg shadow-md card animate-on-scroll dark:bg-gray-800"
+                            data-animation="animate__zoomIn" data-animation-delay="400">
                             <div
                                 class="flex justify-center items-center mx-auto mb-4 w-16 h-16 bg-blue-100 rounded-full dark:bg-blue-900">
                                 <x-lucide-shield-check class="w-8 h-8 text-blue-500 dark:text-blue-400" />
@@ -161,15 +171,18 @@
             </section>
             <section id="services" class="py-16 bg-gray-50 md:py-20 services dark:bg-gray-800">
                 <div class="container px-4 mx-auto text-center">
-                    <h2 class="mb-4 text-3xl font-bold md:text-4xl animate-on-scroll dark:text-white" data-animation="animate__fadeInDown">What We Offer
+                    <h2 class="mb-4 text-3xl font-bold md:text-4xl animate-on-scroll dark:text-white"
+                        data-animation="animate__fadeInDown">What We Offer
                     </h2>
-                    <p class="mx-auto mb-12 max-w-3xl text-gray-600 animate-on-scroll dark:text-gray-400" data-animation="animate__fadeInUp">
+                    <p class="mx-auto mb-12 max-w-3xl text-gray-600 animate-on-scroll dark:text-gray-400"
+                        data-animation="animate__fadeInUp">
                         We provide a comprehensive suite of IT services designed to elevate your business operations and
                         drive growth.
                     </p>
                     <div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
                         <!-- Service Card 1: Cloud Solutions -->
-                        <div class="p-8 bg-white rounded-lg shadow-md card animate-on-scroll dark:bg-gray-900" data-animation="animate__fadeInUp">
+                        <div class="p-8 bg-white rounded-lg shadow-md card animate-on-scroll dark:bg-gray-900"
+                            data-animation="animate__fadeInUp">
                             <div
                                 class="flex justify-center items-center mx-auto mb-4 w-16 h-16 bg-blue-100 rounded-full dark:bg-blue-900">
                                 <x-lucide-cloud class="w-8 h-8 text-blue-500 dark:text-blue-400" />
@@ -180,7 +193,8 @@
                                 applications and data.</p>
                         </div>
                         <!-- Service Card 2: Cybersecurity -->
-                        <div class="p-8 bg-white rounded-lg shadow-md card animate-on-scroll dark:bg-gray-900" data-animation="animate__fadeInUp" data-animation-delay="200">
+                        <div class="p-8 bg-white rounded-lg shadow-md card animate-on-scroll dark:bg-gray-900"
+                            data-animation="animate__fadeInUp" data-animation-delay="200">
                             <div
                                 class="flex justify-center items-center mx-auto mb-4 w-16 h-16 bg-blue-100 rounded-full dark:bg-blue-900">
                                 <x-lucide-shield class="w-8 h-8 text-blue-500 dark:text-blue-400" />
@@ -191,7 +205,8 @@
                                 prevention services.</p>
                         </div>
                         <!-- Service Card 3: Data Analytics -->
-                        <div class="p-8 bg-white rounded-lg shadow-md card animate-on-scroll dark:bg-gray-900" data-animation="animate__fadeInUp" data-animation-delay="400">
+                        <div class="p-8 bg-white rounded-lg shadow-md card animate-on-scroll dark:bg-gray-900"
+                            data-animation="animate__fadeInUp" data-animation-delay="400">
                             <div
                                 class="flex justify-center items-center mx-auto mb-4 w-16 h-16 bg-blue-100 rounded-full dark:bg-blue-900">
                                 <x-lucide-bar-chart-2 class="w-8 h-8 text-blue-500 dark:text-blue-400" />
@@ -202,7 +217,8 @@
                                 decision-making.</p>
                         </div>
                         <!-- Service Card 4: Managed IT Services -->
-                        <div class="p-8 bg-white rounded-lg shadow-md card animate-on-scroll dark:bg-gray-900" data-animation="animate__fadeInUp">
+                        <div class="p-8 bg-white rounded-lg shadow-md card animate-on-scroll dark:bg-gray-900"
+                            data-animation="animate__fadeInUp">
                             <div
                                 class="flex justify-center items-center mx-auto mb-4 w-16 h-16 bg-blue-100 rounded-full dark:bg-blue-900">
                                 <x-lucide-server class="w-8 h-8 text-blue-500 dark:text-blue-400" />
@@ -213,7 +229,8 @@
                                 smoothly.</p>
                         </div>
                         <!-- Service Card 5: Software Development -->
-                        <div class="p-8 bg-white rounded-lg shadow-md card animate-on-scroll dark:bg-gray-900" data-animation="animate__fadeInUp" data-animation-delay="200">
+                        <div class="p-8 bg-white rounded-lg shadow-md card animate-on-scroll dark:bg-gray-900"
+                            data-animation="animate__fadeInUp" data-animation-delay="200">
                             <div
                                 class="flex justify-center items-center mx-auto mb-4 w-16 h-16 bg-blue-100 rounded-full dark:bg-blue-900">
                                 <x-lucide-code class="w-8 h-8 text-blue-500 dark:text-blue-400" />
@@ -224,7 +241,8 @@
                                 needs and challenges.</p>
                         </div>
                         <!-- Service Card 6: IT Consulting -->
-                        <div class="p-8 bg-white rounded-lg shadow-md card animate-on-scroll dark:bg-gray-900" data-animation="animate__fadeInUp" data-animation-delay="400">
+                        <div class="p-8 bg-white rounded-lg shadow-md card animate-on-scroll dark:bg-gray-900"
+                            data-animation="animate__fadeInUp" data-animation-delay="400">
                             <div
                                 class="flex justify-center items-center mx-auto mb-4 w-16 h-16 bg-blue-100 rounded-full dark:bg-blue-900">
                                 <x-lucide-briefcase class="w-8 h-8 text-blue-500 dark:text-blue-400" />
@@ -241,6 +259,35 @@
                             Explore Our Solutions
                             <x-lucide-arrow-right class="inline-block ml-2 w-6 h-6" />
                         </a>
+                    </div>
+                </div>
+            </section>
+            <section id="portfolio" class="py-16 bg-white md:py-20 portfolio dark:bg-gray-800">
+                <div class="container px-4 mx-auto text-center">
+                    <h2 class="mb-4 text-3xl font-bold md:text-4xl animate-on-scroll dark:text-white"
+                        data-animation="animate__fadeInDown">Our Clients</h2>
+                    <p class="mx-auto mb-12 max-w-3xl text-gray-600 animate-on-scroll dark:text-gray-400"
+                        data-animation="animate__fadeInUp">
+                        We are proud to have worked with a diverse range of clients, from startups to established
+                        enterprises.
+                    </p>
+                    <div class="grid grid-cols-2 gap-8 md:grid-cols-4">
+                        <div class="flex justify-center items-center p-4 bg-gray-100 rounded-lg animate-on-scroll dark:bg-gray-700"
+                            data-animation="animate__zoomIn">
+                            <img src="{{ asset('assets/clients/client-1.svg') }}" alt="Client 1 Logo" class="h-12">
+                        </div>
+                        <div class="flex justify-center items-center p-4 bg-gray-100 rounded-lg animate-on-scroll dark:bg-gray-700"
+                            data-animation="animate__zoomIn" data-animation-delay="200">
+                            <img src="{{ asset('assets/clients/client-2.svg') }}" alt="Client 2 Logo" class="h-12">
+                        </div>
+                        <div class="flex justify-center items-center p-4 bg-gray-100 rounded-lg animate-on-scroll dark:bg-gray-700"
+                            data-animation="animate__zoomIn" data-animation-delay="400">
+                            <img src="{{ asset('assets/clients/client-3.svg') }}" alt="Client 3 Logo" class="h-12">
+                        </div>
+                        <div class="flex justify-center items-center p-4 bg-gray-100 rounded-lg animate-on-scroll dark:bg-gray-700"
+                            data-animation="animate__zoomIn" data-animation-delay="600">
+                            <img src="{{ asset('assets/clients/client-4.svg') }}" alt="Client 4 Logo" class="h-12">
+                        </div>
                     </div>
                 </div>
             </section>
@@ -282,7 +329,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="p-8 bg-gray-50 rounded-lg shadow-md contact-form animate-on-scroll dark:bg-gray-900" data-animation="animate__fadeInRight">
+                <div class="p-8 bg-gray-50 rounded-lg shadow-md contact-form animate-on-scroll dark:bg-gray-900"
+                    data-animation="animate__fadeInRight">
                     @if (session('success'))
                         <div class="p-4 mb-4 text-sm text-green-700 bg-green-100 rounded-lg dark:bg-green-200 dark:text-green-800"
                             role="alert">

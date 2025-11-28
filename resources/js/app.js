@@ -26,6 +26,10 @@ document.addEventListener('DOMContentLoaded', function () {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
                 const animation = entry.target.getAttribute('data-animation') || 'animate__fadeInUp';
+                const delay = entry.target.getAttribute('data-animation-delay');
+                if (delay) {
+                    entry.target.style.animationDelay = `${delay}ms`;
+                }
                 entry.target.classList.add('animate__animated', animation);
             }
         });
