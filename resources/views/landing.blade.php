@@ -325,7 +325,8 @@
                     </div>
                 </div>
                 <div class="p-8 bg-gray-50 rounded-lg shadow-md contact-form animate-on-scroll dark:bg-gray-900">
-                    <form>
+                    <form method="POST" action="{{ route('contact.submit') }}">
+                        @csrf
                         <div class="grid grid-cols-1 gap-6 mb-6 md:grid-cols-2">
                             <div>
                                 <label for="full_name" class="block mb-2 font-semibold text-gray-700 dark:text-gray-300">Full
