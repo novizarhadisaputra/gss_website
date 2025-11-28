@@ -25,7 +25,12 @@ document.addEventListener('DOMContentLoaded', function () {
     const observer = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
-                entry.target.classList.add('animate-fade-in-up');
+                const animation = entry.target.getAttribute('data-animation') || 'animate__fadeInUp';
+                const delay = entry.target.getAttribute('data-animation-delay');
+                if (delay) {
+                    entry.target.style.animationDelay = `${delay}ms`;
+                }
+                entry.target.classList.add('animate__animated', animation);
             }
         });
     }, {
