@@ -325,7 +325,13 @@
                     </div>
                 </div>
                 <div class="p-8 bg-gray-50 rounded-lg shadow-md contact-form animate-on-scroll dark:bg-gray-900">
-                    <form>
+                    @if (session('success'))
+                        <div class="p-4 mb-4 text-sm text-green-700 bg-green-100 rounded-lg dark:bg-green-200 dark:text-green-800" role="alert">
+                            {{ session('success') }}
+                        </div>
+                    @endif
+                    <form method="POST" action="{{ route('contact.submit') }}">
+                        @csrf
                         <div class="grid grid-cols-1 gap-6 mb-6 md:grid-cols-2">
                             <div>
                                 <label for="full_name" class="block mb-2 font-semibold text-gray-700 dark:text-gray-300">Full
