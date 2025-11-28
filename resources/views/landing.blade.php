@@ -29,6 +29,8 @@
                     <a href="#about" class="px-4 text-gray-600 dark:text-white nav-link hover:text-blue-500">About</a>
                     <a href="#services"
                         class="px-4 text-gray-600 dark:text-white nav-link hover:text-blue-500">Services</a>
+                    <a href="#portfolio"
+                        class="px-4 text-gray-600 dark:text-white nav-link hover:text-blue-500">Portfolio</a>
                     <a href="#contact" class="px-4 text-gray-600 dark:text-white nav-link hover:text-blue-500">Contact
                         Us</a>
                     <button id="dark-mode-toggle"
@@ -52,6 +54,7 @@
                 <a href="#home" class="block px-4 py-2 text-sm text-white hover:bg-gray-700">Home</a>
                 <a href="#about" class="block px-4 py-2 text-sm text-white hover:bg-gray-700">About</a>
                 <a href="#services" class="block px-4 py-2 text-sm text-white hover:bg-gray-700">Services</a>
+                <a href="#portfolio" class="block px-4 py-2 text-sm text-white hover:bg-gray-700">Portfolio</a>
                 <a href="#contact" class="block px-4 py-2 text-sm text-white hover:bg-gray-700">Contact Us</a>
             </nav>
         </header>
@@ -241,6 +244,28 @@
                             Explore Our Solutions
                             <x-lucide-arrow-right class="inline-block ml-2 w-6 h-6" />
                         </a>
+                    </div>
+                </div>
+            </section>
+            <section id="portfolio" class="py-16 bg-white md:py-20 portfolio dark:bg-gray-800">
+                <div class="container px-4 mx-auto text-center">
+                    <h2 class="mb-4 text-3xl font-bold md:text-4xl animate-on-scroll dark:text-white" data-animation="animate__fadeInDown">Our Clients</h2>
+                    <p class="mx-auto mb-12 max-w-3xl text-gray-600 animate-on-scroll dark:text-gray-400" data-animation="animate__fadeInUp">
+                        We are proud to have worked with a diverse range of clients, from startups to established enterprises.
+                    </p>
+                    <div class="grid grid-cols-2 gap-8 md:grid-cols-4">
+                        <div class="flex justify-center items-center p-4 bg-gray-100 rounded-lg animate-on-scroll dark:bg-gray-700" data-animation="animate__zoomIn">
+                            <img src="{{ asset('assets/clients/client-1.svg') }}" alt="Client 1 Logo" class="h-12">
+                        </div>
+                        <div class="flex justify-center items-center p-4 bg-gray-100 rounded-lg animate-on-scroll dark:bg-gray-700" data-animation="animate__zoomIn" data-animation-delay="200">
+                            <img src="{{ asset('assets/clients/client-2.svg') }}" alt="Client 2 Logo" class="h-12">
+                        </div>
+                        <div class="flex justify-center items-center p-4 bg-gray-100 rounded-lg animate-on-scroll dark:bg-gray-700" data-animation="animate__zoomIn" data-animation-delay="400">
+                            <img src="{{ asset('assets/clients/client-3.svg') }}" alt="Client 3 Logo" class="h-12">
+                        </div>
+                        <div class="flex justify-center items-center p-4 bg-gray-100 rounded-lg animate-on-scroll dark:bg-gray-700" data-animation="animate__zoomIn" data-animation-delay="600">
+                            <img src="{{ asset('assets/clients/client-4.svg') }}" alt="Client 4 Logo" class="h-12">
+                        </div>
                     </div>
                 </div>
             </section>
