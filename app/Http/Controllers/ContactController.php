@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
+use App\Http\Requests\ContactFormRequest;
 use Illuminate\Support\Facades\Mail;
 use App\Mail\ContactFormMail;
 
@@ -11,14 +11,9 @@ use App\Mail\ContactFormMail;
 
 class ContactController extends Controller
 {
-    public function submit(Request $request)
+    public function submit(ContactFormRequest $request)
     {
-        $validatedData = $request->validate([
-            'full_name' => 'required',
-            'company_name' => 'required',
-            'email' => 'required|email',
-            'message' => 'required',
-        ]);
+        $validatedData = $request->validated();
 
         Mail::to('support@gsssolution.com')->send(new ContactFormMail($validatedData));
 
