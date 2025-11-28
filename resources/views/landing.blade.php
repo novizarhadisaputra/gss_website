@@ -23,12 +23,14 @@
                     </a>
                 </div>
                 <nav class="hidden items-center space-x-4 md:flex">
-                    <a href="#home" class="px-4 nav-link hover:text-gray-200">Home</a>
-                    <a href="#about" class="px-4 nav-link hover:text-gray-200">About</a>
-                    <a href="#services" class="px-4 nav-link hover:text-gray-200">Services</a>
-                    <a href="#contact" class="px-4 nav-link hover:text-gray-200">Contact Us</a>
+                    <a href="#home" class="px-4 text-gray-600 dark:text-white nav-link hover:text-blue-200">Home</a>
+                    <a href="#about" class="px-4 text-gray-600 dark:text-white nav-link hover:text-blue-200">About</a>
+                    <a href="#services"
+                        class="px-4 text-gray-600 dark:text-white nav-link hover:text-blue-200">Services</a>
+                    <a href="#contact" class="px-4 text-gray-600 dark:text-white nav-link hover:text-blue-200">Contact
+                        Us</a>
                     <button id="dark-mode-toggle"
-                        class="p-2 rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">
+                        class="p-2 text-gray-600 rounded-full dark:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">
                         <svg id="sun-icon" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
                             xmlns="http://www.w3.org/2000/svg">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -45,7 +47,7 @@
                 </nav>
                 <div class="flex items-center md:hidden">
                     <button id="dark-mode-toggle-mobile"
-                        class="p-2 mr-2 rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">
+                        class="p-2 mr-2 text-gray-600 rounded-full dark:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">
                         <svg id="sun-icon-mobile" class="w-6 h-6" fill="none" stroke="currentColor"
                             viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -59,7 +61,7 @@
                             </path>
                         </svg>
                     </button>
-                    <button id="mobile-menu-button" class="text-white focus:outline-none">
+                    <button id="mobile-menu-button" class="text-gray-600 dark:text-white focus:outline-none">
                         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
                             xmlns="http://www.w3.org/2000/svg">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
