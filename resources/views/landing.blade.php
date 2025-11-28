@@ -31,13 +31,28 @@
                         <svg id="moon-icon" class="w-6 h-6 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"></path></svg>
                     </button>
                 </nav>
-                <div class="md:hidden flex items-center">
-                    <button id="dark-mode-toggle-mobile" class="p-2 mr-2 rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">
-                        <svg id="sun-icon-mobile" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"></path></svg>
-                        <svg id="moon-icon-mobile" class="w-6 h-6 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"></path></svg>
+                <div class="flex items-center md:hidden">
+                    <button id="dark-mode-toggle-mobile"
+                        class="p-2 mr-2 rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">
+                        <svg id="sun-icon-mobile" class="w-6 h-6" fill="none" stroke="currentColor"
+                            viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z">
+                            </path>
+                        </svg>
+                        <svg id="moon-icon-mobile" class="hidden w-6 h-6" fill="none" stroke="currentColor"
+                            viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z">
+                            </path>
+                        </svg>
                     </button>
                     <button id="mobile-menu-button" class="text-white focus:outline-none">
-                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
                     </button>
                 </div>
             </div>
@@ -68,7 +83,7 @@
             <section id="about" class="py-16 md:py-20 bg-gray-50 about-us dark:bg-gray-800">
                 <div class="container grid grid-cols-1 gap-12 items-center mx-auto md:grid-cols-2 px-4">
                     <div class="about-content animate-on-scroll">
-                        <h2 class="mb-4 text-3xl md:text-4xl font-bold dark:text-white">About GSS</h2>
+                        <h2 class="mb-4 text-3xl font-bold md:text-4xl dark:text-white">About GSS</h2>
                         <p class="mb-6 text-gray-600 dark:text-gray-400">
                             Global Software Solutions (GSS) is a leading provider of innovative technology solutions.
                             Our mission is to empower businesses with the tools they need to succeed in a rapidly
@@ -101,8 +116,8 @@
                 </div>
             </section>
             <section class="py-16 md:py-20 vision-mission dark:bg-gray-900">
-                <div class="container mx-auto text-center px-4">
-                    <h2 class="mb-4 text-3xl md:text-4xl font-bold animate-on-scroll dark:text-white">Our Vision</h2>
+                <div class="container px-4 mx-auto text-center">
+                    <h2 class="mb-4 text-3xl font-bold md:text-4xl animate-on-scroll dark:text-white">Our Vision</h2>
                     <p class="mx-auto mb-12 max-w-3xl text-gray-600 animate-on-scroll dark:text-gray-400">
                         To be the leading partner in digital transformation, empowering businesses to achieve their full
                         potential through innovative technology, strategic insights, and unwavering commitment to
@@ -110,8 +125,9 @@
                         sustainable growth and a smarter world.
                     </p>
 
-                    <h3 class="mb-8 text-2xl md:text-3xl font-bold animate-on-scroll dark:text-white">Mission & Goals</h3>
-                     <div class="grid grid-cols-1 gap-8 md:grid-cols-3">
+                    <h3 class="mb-8 text-2xl font-bold md:text-3xl animate-on-scroll dark:text-white">Mission & Goals
+                    </h3>
+                    <div class="grid grid-cols-1 gap-8 md:grid-cols-3">
                         <!-- Card 1: Client Success -->
                         <div class="p-8 bg-white rounded-lg shadow-md card animate-on-scroll dark:bg-gray-800">
                             <div
@@ -125,7 +141,8 @@
                                 </svg>
                             </div>
                             <h4 class="mb-2 text-2xl font-semibold dark:text-white">Client Success</h4>
-                            <p class="text-gray-600 dark:text-gray-400">Our primary goal is to ensure the success of our clients through
+                            <p class="text-gray-600 dark:text-gray-400">Our primary goal is to ensure the success of
+                                our clients through
                                 tailored IT solutions and unwavering support.</p>
                         </div>
                         <!-- Card 2: Innovation -->
@@ -141,7 +158,8 @@
                                 </svg>
                             </div>
                             <h4 class="mb-2 text-2xl font-semibold dark:text-white">Innovation</h4>
-                            <p class="text-gray-600 dark:text-gray-400">We are committed to continuous innovation, leveraging cutting-edge
+                            <p class="text-gray-600 dark:text-gray-400">We are committed to continuous innovation,
+                                leveraging cutting-edge
                                 technology to solve complex business challenges.</p>
                         </div>
                         <!-- Card 3: Integrity -->
@@ -157,7 +175,8 @@
                                 </svg>
                             </div>
                             <h4 class="mb-2 text-2xl font-semibold dark:text-white">Integrity</h4>
-                            <p class="text-gray-600 dark:text-gray-400">We operate with the highest level of integrity, building trust
+                            <p class="text-gray-600 dark:text-gray-400">We operate with the highest level of integrity,
+                                building trust
                                 through transparent and ethical practices.</p>
                         </div>
                     </div>
@@ -183,7 +202,8 @@
                                 </svg>
                             </div>
                             <h4 class="mb-2 text-2xl font-semibold dark:text-white">Cloud Solutions</h4>
-                            <p class="text-gray-600 dark:text-gray-400">Scalable and secure cloud infrastructure to power your
+                            <p class="text-gray-600 dark:text-gray-400">Scalable and secure cloud infrastructure to
+                                power your
                                 applications and data.</p>
                         </div>
                         <!-- Service Card 2: Cybersecurity -->
@@ -198,7 +218,8 @@
                                 </svg>
                             </div>
                             <h4 class="mb-2 text-2xl font-semibold dark:text-white">Cybersecurity</h4>
-                            <p class="text-gray-600 dark:text-gray-400">Protecting your digital assets with advanced threat detection and
+                            <p class="text-gray-600 dark:text-gray-400">Protecting your digital assets with advanced
+                                threat detection and
                                 prevention services.</p>
                         </div>
                         <!-- Service Card 3: Data Analytics -->
@@ -213,7 +234,8 @@
                                 </svg>
                             </div>
                             <h4 class="mb-2 text-2xl font-semibold dark:text-white">Data Analytics</h4>
-                            <p class="text-gray-600 dark:text-gray-400">Transforming raw data into actionable insights for strategic
+                            <p class="text-gray-600 dark:text-gray-400">Transforming raw data into actionable insights
+                                for strategic
                                 decision-making.</p>
                         </div>
                         <!-- Service Card 4: Managed IT Services -->
@@ -226,7 +248,8 @@
                                 </svg>
                             </div>
                             <h4 class="mb-2 text-2xl font-semibold dark:text-white">Managed IT Services</h4>
-                            <p class="text-gray-600 dark:text-gray-400">Proactive IT management and support to keep your systems running
+                            <p class="text-gray-600 dark:text-gray-400">Proactive IT management and support to keep
+                                your systems running
                                 smoothly.</p>
                         </div>
                         <!-- Service Card 5: Software Development -->
@@ -241,7 +264,8 @@
                                 </svg>
                             </div>
                             <h4 class="mb-2 text-2xl font-semibold dark:text-white">Software Development</h4>
-                            <p class="text-gray-600 dark:text-gray-400">Custom software solutions built to address your unique business
+                            <p class="text-gray-600 dark:text-gray-400">Custom software solutions built to address your
+                                unique business
                                 needs and challenges.</p>
                         </div>
                         <!-- Service Card 6: IT Consulting -->
@@ -256,7 +280,8 @@
                                 </svg>
                             </div>
                             <h4 class="mb-2 text-2xl font-semibold dark:text-white">IT Consulting</h4>
-                            <p class="text-gray-600 dark:text-gray-400">Expert guidance to help you navigate the complexities of the IT
+                            <p class="text-gray-600 dark:text-gray-400">Expert guidance to help you navigate the
+                                complexities of the IT
                                 landscape.</p>
                         </div>
                     </div>
@@ -277,7 +302,7 @@
         <section id="contact" class="py-16 md:py-20 bg-white get-in-touch dark:bg-gray-800">
             <div class="container grid grid-cols-1 gap-12 items-start mx-auto md:grid-cols-2 px-4">
                 <div class="contact-info animate-on-scroll">
-                    <h2 class="mb-4 text-3xl md:text-4xl font-bold dark:text-white">Get in Touch</h2>
+                    <h2 class="mb-4 text-3xl font-bold md:text-4xl dark:text-white">Get in Touch</h2>
                     <p class="mb-8 text-gray-600 dark:text-gray-400">
                         Fill out the form below or use our contact details to reach us directly. We're here to help
                         build your next solution.
@@ -295,7 +320,8 @@
                         </div>
                         <div>
                             <h4 class="text-xl font-semibold dark:text-white">Our Office</h4>
-                            <p class="text-gray-600 dark:text-gray-400">123 Tech Avenue, Suite 100<br>Innovation City, IN 46202</p>
+                            <p class="text-gray-600 dark:text-gray-400">123 Tech Avenue, Suite 100<br>Innovation City,
+                                IN 46202</p>
                         </div>
                     </div>
                     <div class="flex items-start mb-6">
@@ -337,14 +363,16 @@
                         @csrf
                         <div class="grid grid-cols-1 gap-6 mb-6 md:grid-cols-2">
                             <div>
-                                <label for="full_name" class="block mb-2 font-semibold text-gray-700 dark:text-gray-300">Full
+                                <label for="full_name"
+                                    class="block mb-2 font-semibold text-gray-700 dark:text-gray-300">Full
                                     Name</label>
                                 <input type="text" id="full_name" name="full_name"
                                     class="px-4 py-2 w-full rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-300"
                                     placeholder="John Doe">
                             </div>
                             <div>
-                                <label for="company_name" class="block mb-2 font-semibold text-gray-700 dark:text-gray-300">Company
+                                <label for="company_name"
+                                    class="block mb-2 font-semibold text-gray-700 dark:text-gray-300">Company
                                     Name</label>
                                 <input type="text" id="company_name" name="company_name"
                                     class="px-4 py-2 w-full rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-300"
@@ -352,13 +380,15 @@
                             </div>
                         </div>
                         <div class="mb-6">
-                            <label for="email" class="block mb-2 font-semibold text-gray-700 dark:text-gray-300">Email Address</label>
+                            <label for="email"
+                                class="block mb-2 font-semibold text-gray-700 dark:text-gray-300">Email Address</label>
                             <input type="email" id="email" name="email"
                                 class="px-4 py-2 w-full rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-300"
                                 placeholder="you@example.com">
                         </div>
                         <div class="mb-6">
-                            <label for="message" class="block mb-2 font-semibold text-gray-700 dark:text-gray-300">Your Message</label>
+                            <label for="message"
+                                class="block mb-2 font-semibold text-gray-700 dark:text-gray-300">Your Message</label>
                             <textarea id="message" name="message" rows="5"
                                 class="px-4 py-2 w-full rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-300"
                                 placeholder="Describe your project or inquiry here..."></textarea>
@@ -373,7 +403,7 @@
         </section>
 
         <footer class="py-12 text-white bg-gray-800 dark:bg-black">
-            <div class="container grid grid-cols-1 gap-8 mx-auto md:grid-cols-4 px-4">
+            <div class="container grid grid-cols-1 gap-8 px-4 mx-auto md:grid-cols-4">
                 <div class="footer-about">
                     <h3 class="mb-4 text-2xl font-bold">GSS Solution</h3>
                     <p class="text-gray-400">
