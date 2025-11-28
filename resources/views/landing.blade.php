@@ -44,7 +44,7 @@
 
         <main>
             <section class="h-screen text-white bg-center bg-cover hero"
-                style="background-image: linear-gradient(to right, rgba(37, 99, 235, 0.8), rgba(23, 37, 84, 0.8))">
+                style="background-image: linear-gradient(to right, rgba(37, 99, 235, 0.8), rgba(23, 37, 84, 0.8)), url('{{ asset('assets/hero-background.png') }}');">
                 <div class="container flex flex-col justify-center items-center px-4 mx-auto h-full text-center">
                     <h1 class="mb-4 text-4xl font-extrabold md:text-5xl animate-fade-in-down">Empowering Your Business
                         with Innovative Solutions</h1>
